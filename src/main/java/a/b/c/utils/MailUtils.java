@@ -48,8 +48,8 @@ public class MailUtils {
     private void setMailSender(Properties properties) {
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
-        mailSender.setUsername("parksu6684@gmail.com");
-        mailSender.setPassword("qorgusrh@89");
+        mailSender.setUsername("이메일주소");
+        mailSender.setPassword("비밀번호");
         mailSender.setDefaultEncoding("utf-8");
         mailSender.setJavaMailProperties(properties);
     }
